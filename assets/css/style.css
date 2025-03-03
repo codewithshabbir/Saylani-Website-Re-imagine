@@ -1,0 +1,26 @@
+footer{
+    background: linear-gradient(to right, #8dc63f, #1371b9);
+    /* background-size: 200%; */
+    animation: gradientMove 2.5s linear infinite;
+}
+@keyframes gradientMove {
+    /* to{
+        background-position: 200% 0%;
+    } */
+     /* 100%{
+        filter:hue-rotate(360deg);
+     } */
+      0%{
+        background-position:0 50% ;
+      }
+      50%{
+        background-position:100% 50% ;
+      }
+      
+}
+.wave{
+  background: linear-gradient(to right, #8dc63f, #1371b9);
+     url(../images/image/wave.png) no-repeat center center / cover;
+     filter: drop-shadow(linear-gradient(to right, #8dc63f, #1371b9));
+      /* background-size: cover; */
+}
